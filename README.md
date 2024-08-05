@@ -1,4 +1,3 @@
-```markdown
 # NextWork.org Cloud Security with AWS IAM
 
 ## Project Documentation
@@ -27,7 +26,7 @@ IAM Policies are policies that allow you to configure identity access. For this 
 When creating a JSON policy, you have to define its **Effect**, **Action**, and **Resource**. The **Effect**, **Action**, and **Resource** attributes in a JSON policy define whether access is allowed or denied, specify the actions that can be performed, and identify the resources those actions apply to, respectively.
 
 ### My JSON Policy
-```json
+
 {
   "Version": "2012-10-17",
   "Statement": [
@@ -38,7 +37,6 @@ When creating a JSON policy, you have to define its **Effect**, **Action**, and 
     }
   ]
 }
-```
 
 ### Account Alias
 An account alias is an easily recognized name or label representing a general ledger account number, which can be used instead of the account number during transactions to simplify identification and management. Creating an account alias took me 2 minutes. Now, my new AWS console sign-in URL is `nextwork-alias-vincent`.
